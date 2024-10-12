@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #F9ED69;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.cardDiv
+{
+    background-color: #F08A5D;
+
+    width: 40vh;
+    height: 60vh;
+
+    border-radius: 5vh;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.numberDiv
+{
+    font-size: 25vh;
+    margin-top: 10vh;
+}
+
+.buttonsDiv
+{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+}
+
+.btnS
+{
+    background-color: #B83B5E;
+    width: 11vh;
+    height: 6vh;
+    border-radius: 2vh;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-size: 2vh;
+}
+
+.btnS:hover
+{
+    background-color: #6A2C70;
+}
+
+.btnS:active
+{
+    background-color: #29112c;
+}
+
+.theme
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bodySea
+{
+    background-color: #7E60BF;
+}
+
+.btnSea
+{
+    background-color: #433878;
+}
+
+.btnSea:hover
+{
+    background-color: #001325;
+}
+
+.btnSea:active
+{
+    background-color: #000000;
+}
+
+.cardSea
+{
+    background-color: #FFE1FF;
+}
+
+.bodyJungle
+{
+    background-color: #387478;
+}
+
+.btnJungle
+{
+    background-color: #243642;
+}
+
+.btnJungle:hover
+{
+    background-color: #001325;
+}
+
+.btnJungle:active
+{
+    background-color: #000000;
+}
+
+.cardJungle
+{
+    background-color: #629584;
+}
+
+.bodySunshine
+{
+    background-color: #982B1C;
+}
+
+.btnSunshine
+{
+    background-color: #800000;
+}
+
+.btnSunshine:hover
+{
+    background-color: #001325;
+}
+
+.btnSunshine:active
+{
+    background-color: #000000;
+}
+
+.cardSunshine
+{
+    background-color: #DAD4B5;
+}
